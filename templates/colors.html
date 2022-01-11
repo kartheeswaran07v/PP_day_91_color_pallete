@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Palette</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h3>Click on hex-code to copy!</h3>
+    <section>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      {% for color in colors: %}
+      <div id={{ colors.index(color) }} class="box" style="background-color: rgb{{ color }};">
+          <button onclick="copyToClipboard('#{{ colors.index(color) }}')">{{'#%02x%02x%02x' % color }}</button>
+      </div>
+      {% endfor %}
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="static/scripts.js"></script>
+    </section>
+
+</body>
+</html>

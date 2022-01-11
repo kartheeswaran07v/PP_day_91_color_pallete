@@ -1,0 +1,45 @@
+.box {
+  margin-top: 10px;
+  height: 75px;
+  width: 500px;
+}
+
+.a1 {
+  height: 75px;
+  width: 500px;
+  background-color: rgb(40, 55, 48);
+}
+
+.a2 {
+  height: 75px;
+  width: 500px;
+  background-color: rgb(215, 160, 85);
+}
+
+.a3 {
+  height: 75px;
+  width: 500px;
+  background-color: rgb(85, 169, 189);
+}
+
+.a4 {
+  height: 75px;
+  width: 500px;
+  background-color: rgb(148, 87, 48);
+}
+
+.a5 {
+  height: 75px;
+  width: 500px;
+  background-color: rgb(230, 194, 182);
+}
+
+.a6 {
+  height: 75px;
+  width: 500px;
+  background-color: rgb(92, 162, 109);
+}
+
+.img {
+  width: 500px;
+}

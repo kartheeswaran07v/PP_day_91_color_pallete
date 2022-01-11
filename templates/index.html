@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Colors</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+
+    <section>
+        <img class="img" src="static/naru1.jpg">
+    </section>
+    <section>
+         <form method="post" enctype="multipart/form-data">
+             <div>
+               <h2>
+                   <label for="file">Choose file to upload</label>
+                   <input type="file" id="file" name="file" multiple>
+               </h2>
+             </div>
+             <div>
+               <button>Submit</button>
+             </div>
+         </form>
+    </section>
+    <section>
+      <div class="a1 box">
+          <h2>{{ '#%02x%02x%02x' % (40, 55, 48) }}</h2>
+      </div>
+      <div class="a2 box">
+          <h2>{{ '#%02x%02x%02x' % (215, 160, 85) }}</h2>
+      </div>
+      <div class="a3 box">
+          <h2>{{ '#%02x%02x%02x' % (85, 169, 189) }}</h2>
+      </div>
+      <div class="a4 box">
+          <h2>{{ '#%02x%02x%02x' % (148, 87, 48) }}</h2>
+      </div>
+      <div class="a5 box">
+          <h2>{{ '#%02x%02x%02x' % (230, 194, 182) }}</h2>
+      </div>
+      <div class="a6 box">
+          <h2>{{ '#%02x%02x%02x' % (92, 162, 109) }}</h2>
+      </div>
+    </section>
+</body>
+</html>
